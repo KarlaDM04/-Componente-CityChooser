@@ -3,7 +3,7 @@
 Es un componente diseñado en Java que permite seleccionar ciudades, un Estado y alguno de sus respectivos municipios correspondientes México, a partir de datos cargados desde un archivo CSV,  puede ser utilizado en diferentes clases como JFrame form, para el diseño de interfaces. 
 Para desarrollar este componente se utilizó una clase Java Class llamada CityChooser, en la cual se diseñó el componente y los métodos necesarios para hacerlo funcional.
 
-##CARACTERÍSTICAS
+## CARACTERÍSTICAS
 - Selector de ciudades que incluye un Estado y un Municipio, utiliza componentes como JComboBox y JLabel para mostrar y seleccionar dicha información.
 - Se puede utilizar para el diseño de interfaces desde clases como JFrame o JDialog.
 - Se puede agregar a la paleta de componentes para ser utilizado fácilmente.
@@ -12,7 +12,7 @@ Para desarrollar este componente se utilizó una clase Java Class llamada CityCh
 - Los campos de selección se actualizan dinámicamente según la selección anterior.
 -  Es posible obtener la información seleccionada en formato de cadena a través de un método proporcionado.
 
-##APLICACIONES
+## APLICACIONES
 Este componente puede ser utilizado en una variedad de contextos donde se requiere que el usuario seleccione un estado y un municipio, para establecer una ubicación o dirección, como en los siguientes ejemplos:
 
 - **Aplicaciones de Registro** en formularios donde los usuarios deben proporcionar su ubicación para registro o verificación de dirección.
@@ -29,11 +29,11 @@ Este componente puede ser utilizado en una variedad de contextos donde se requie
 - Un IDE que soporte la librería Swing de Java para poder utilizar y visualizar gráficamente el componente, por ejemplo: NetBeans.
 - Un archivo CSV con datos de los estados y sus respectivos municipios en el formato esperado (2 columnas) para que el componente funcione correctamente (el archivo se encuentra del proyecto).
 
-##API
-###DESCRIPCIÓN
+## API
+### DESCRIPCIÓN
 La clase CityChooser es una subclase de JPanel, contiene el código del diseño del componente y las instrucciones necesarias para hacerlo funcional, este componente permite a los usuarios seleccionar el Estado y Municipio de México del cual son originarios o en el habitan según sea utilizado; se muestran los 32 estados Mexicanos y los municipios de cada uno, así como el número de Estado y número de Municipio seleccionado.
 
-###LIBRERÍAS
+### LIBRERÍAS
 | Librería | Descripción |
 | ------ | ------------- |
 |  ` java.awt.Dimension` | ​ Esta es una librería que define el tamaño de un componente gráfico con propiedades de ancho y alto, utilizado comúnmente para establecer y obtener las dimensiones de elementos en interfaces gráficas de usuario. Lo implementamos para definir un tamaño predeterminado al panel del componente.|
