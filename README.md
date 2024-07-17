@@ -1,4 +1,4 @@
-# Componente 
+# COMPONENTE SELECTOR DE CIUDADES
 ## DESCRIPCIÓN
 Es un componente diseñado en Java que permite seleccionar ciudades, un Estado y alguno de sus respectivos municipios correspondientes México, a partir de datos cargados desde un archivo CSV,  puede ser utilizado en diferentes clases como JFrame form, para el diseño de interfaces. 
 Para desarrollar este componente se utilizó una clase Java Class llamada CityChooser, en la cual se diseñó el componente y los métodos necesarios para hacerlo funcional.
