@@ -46,10 +46,15 @@ La clase CityChooser es una subclase de JPanel, contiene el código del diseño 
 |  ` java.io.FileInputStream y java.io.InputStreamReader `  | FileInputStream permite leer datos en bytes desde un archivo, facilitando el acceso y manipulación de archivos binarios. InputStreamReader convierte flujos de bytes en flujos de caracteres, permitiendo leer datos de entrada en un formato comprensible para aplicaciones que manejan texto. Estas librerías fueron implementadas para que se pudieran visualizar los acentos y simbolos contenidos en los nombres de los diferentes estados y municipios al leer el archivo. |
 |  ` java.awt.GridLayout`  | Es un administrador de diseño que organiza los componentes en una cuadrícula rectangular, utilizado para organizar los elementos contenidos en el panel. |
 
-#### COMPONENTES
+### COMPONENTES
 | Tipo | Campo | Descripción |
 | ------ | ------- | ------------- |
 |  ` JComboBox<String> `  |  ` comboEstados` | ​Combo Box para almacenar los Estados obtenidos del archivo csv . |
 |  ` JComboBox<String> `  |  ` comboMunicipios `  | Combo Box para almacenar los Municipios asociados a cada Estado, obtenidos del archivo csv. |
 |  ` JLabel `  |  ` labelNumeroEstado `  | Etiqueta para imprimir el número  y nombre del Estado seleccionado.  |
 |  ` JLabel `  |  ` labelNumeroMunicipio `  | Etiqueta para imprimir el número  y nombre del Municipio seleccionado.|
+
+### Constructor
+| Constructor | Descripción |
+| ------------- | ------------- |
+|  ` CityChooser() `  | Se inicializa el componente, se declara la ruta del archivo csv como parámetro en el método leerCSV, y se inicializa el método para llenar el combo de Estados. |
