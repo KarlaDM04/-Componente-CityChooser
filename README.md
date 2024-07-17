@@ -69,3 +69,14 @@ La clase CityChooser es una subclase de JPanel, contiene el código del diseño 
 |  ` llenarComboEstados `  | Este método se encarga de llenar el combo box de Estados con los nombres de los Estados, asegurándose de que estén ordenados alfabéticamente. |
 |  ` getInfo `  | Retorna una cadena de texto que combina los textos de labelNumeroEstado y labelNumeroMunicipio. Es útil para obtener información concatenada de estos dos componentes de la interfaz.|
 |  ` getPreferredSize()`  | Devuelve un objeto Dimension que especifica el tamaño preferido del componente. En este caso, establece un ancho de 450 píxeles y un alto de 150 píxeles.|
+
+## Instalación
+Para instalar el componente en tu proyecto, sigue estos pasos: 
+- Realiza la descarga del proyecto por medio del .zip o clonando el repositorio
+- Importa el proyecto en tu IDE preferido (Ejemplo: NetBeans) .
+
+##Uso
+- Después de descargar e importar el proyecto en tu IDE, dentro del constructor de la clase CityChooser, se debe cambiar la ruta que se encuentra como parámetro en el método leerCSV, la ruta la puedes obtener copiando la ubicación que se encuentra en las propiedades del archivo csv, contenido en la  carpeta src del proyecto, el cual se encuentra junto con las clases del paquete citychooser, al reemplazar la ruta queda de la siguiente manera:
+leerCSV("C:\\Users\\Jeann\\OneDrive\\Documents\\CityChooser\\CityChooser\\src\\citychooser\\Ciudades.csv");
+A continuación puedes visualizar como realizar este proceso:
+![image](https://github.com/user-attachments/assets/5cbb80a8-a1cc-4aaa-b57b-049cb1c2a105)
