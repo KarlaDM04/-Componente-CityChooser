@@ -23,7 +23,7 @@ Este componente puede ser utilizado en una variedad de contextos donde se requie
 
 - Al ingresar datos de nacimiento o residencia.
 
-##REQUISITOS PARA LA IMPLEMENTACIÓN
+## REQUISITOS PARA LA IMPLEMENTACIÓN
 - Java JDK 8 en adelante.
 
 - Un IDE que soporte la librería Swing de Java para poder utilizar y visualizar gráficamente el componente, por ejemplo: NetBeans.
@@ -42,6 +42,14 @@ La clase CityChooser es una subclase de JPanel, contiene el código del diseño 
 |  ` java.awt.event.ActionEvent y java.awt.event.ActionListener `  |   ActionEvent representa eventos generados por componentes interactivos. Cuando un usuario realiza una acción , se genera un ActionEvent. ActionListener es una interfaz que debe implementarse para responder a estos eventos, definiendo qué acciones tomar cuando ocurren. Esto es fundamental para crear aplicaciones interactivas que reaccionan a las acciones del usuario. En este caso, se utilizaron al manipular las listas desplegables para que se mostraran los diferentes estados y municipios. |
 |  ` java.util.List, java.util.ArrayList y java.util.Collections `  |   Estas clases son parte del paquete java.util y se utilizan para almacenar y manipular la lista de información de los estados y municipios. Esta librería se utilizó para utilizar un HashMap, que es una implementación de la interfaz Map, y sirve para almacenar los datos en pares clave-valor, donde las claves son los Estados y se utilizan para acceder a sus valores asociados, es decir, sus municipios, esta librería también se importó para utilizar la clase ArrayList que implementa la interfaz List, y sirve para almacenar los elementos en un arreglo dinámico, lo que permite agregar, eliminar y acceder a los elementos de manera eficiente, esta librería también se utilizó para trabajar con Colecciones, en este caso para ordenar una lista. |
 |  ` java.io.BufferedReader `  | Esta es una librería que lee texto de un flujo de entrada de manera eficiente al almacenar temporalmente datos en un búfer, en este caso de un csv.  |
+
+#### COMPONENTES
+| Tipo | Campo | Descripción |
+| ------ | ------- | ------------- |
+|  ` JComboBox<String> `  |  ` comboEstados` | ​Combo Box para almacenar los Estados obtenidos del archivo csv . |
+|  ` JComboBox<String> `  |  ` comboMunicipios `  | Combo Box para almacenar los Municipios asociados a cada Estado, obtenidos del archivo csv. |
+|  ` JLabel `  |  ` labelNumeroEstado `  | Etiqueta para imprimir el número  y nombre del Estado seleccionado.  |
+|  ` JLabel `  |  ` labelNumeroMunicipio `  | Etiqueta para imprimir el número  y nombre del Municipio seleccionado.|
 |  ` java.io.IOException `  | Esta librería fue utilizada para  cuando ocurre un problema de entrada/salida, como la imposibilidad de leer el archivo. |
 |  ` java.io.FileInputStream y java.io.InputStreamReader `  | FileInputStream permite leer datos en bytes desde un archivo, facilitando el acceso y manipulación de archivos binarios. InputStreamReader convierte flujos de bytes en flujos de caracteres, permitiendo leer datos de entrada en un formato comprensible para aplicaciones que manejan texto. Estas librerías fueron implementadas para que se pudieran visualizar los acentos y simbolos contenidos en los nombres de los diferentes estados y municipios al leer el archivo. |
 |  ` java.awt.GridLayout`  | Es un administrador de diseño que organiza los componentes en una cuadrícula rectangular, utilizado para organizar los elementos contenidos en el panel. |
