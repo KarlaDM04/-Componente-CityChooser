@@ -126,3 +126,6 @@ Puedes hacer click en el siguiente vídeo para visualizar el funcionamiento del 
 Cuevas Santiago Jennifer - *Estudiante de Ing. en Sistemas Computacionales del ITO *- [Contacto](JennyCussan (github.com))
 
 Delgado Molina Karla Rocío -* Estudiante de Ing. en Sistemas Computacionales del ITO *- [ Contacto ] (https://github.com/KarlaDM04)
+
+## Agradecimientos
+Gracias por ver nuestro proyecto, cualquier duda o sugerencia, puedes contactarnos c:
