@@ -76,7 +76,7 @@ Para instalar el componente en tu proyecto, sigue estos pasos:
 - Importa el proyecto en tu IDE preferido (Ejemplo: NetBeans) .
 
 ## Uso
-- Después de descargar e importar el proyecto en tu IDE, dentro del constructor de la clase CityChooser, se debe cambiar la ruta que se encuentra como parámetro en el método leerCSV, la ruta la puedes obtener copiando la ubicación que se encuentra en las propiedades del archivo csv, contenido en la  carpeta src del proyecto, el cual se encuentra junto con las clases del paquete citychooser. 
+1. Después de descargar e importar el proyecto en tu IDE, dentro del constructor de la clase CityChooser, se debe cambiar la ruta que se encuentra como parámetro en el método leerCSV, la ruta la puedes obtener copiando la ubicación que se encuentra en las propiedades del archivo csv, contenido en la  carpeta src del proyecto, el cual se encuentra junto con las clases del paquete citychooser. 
 
 ![image](https://github.com/user-attachments/assets/1e465a52-585b-4025-9be9-6b5fe0e25c66)
 
@@ -85,3 +85,43 @@ leerCSV("C:\\Users\\Jeann\\OneDrive\\Documents\\CityChooser\\CityChooser\\src\\c
 A continuación puedes visualizar como realizar este proceso:
 
 ![image](https://github.com/user-attachments/assets/c7d55f69-15fc-455b-8fa9-d4d11aef4b99)
+
+- También debes copiar las rutas de las dos imagenes utilizadas para el diseño de las etiquetas de texto, esto con el fin de ser más atractivo visualmente: 
+lblEstado.setIcon(new ImageIcon("C:\\Users\\Jeann\\OneDrive\\Documents\\CityChooser\\CityChooser\\src\\citychooser\\estado.png"));
+
+lblMunicipio.setIcon(new ImageIcon("C:\\Users\\Jeann\\OneDrive\\Documents\\CityChooser\\CityChooser\\src\\citychooser\\municipio.png"));
+
+2. Después de realizar esos cambios, compila el proyecto y selecciona la opción de Clean and Build para generar el archivo .jar.
+
+![image](https://github.com/user-attachments/assets/bc154c10-f7bc-4063-b8df-aacf00891c56)
+
+3. Verifica la creación del componente .jar en la carpeta dist.
+
+![image](https://github.com/user-attachments/assets/7ff0c13f-8749-4e9c-b584-a1fece76cb0e)
+
+4. Agrega el componente a tu paleta de componentes. Da click derecho en la paleta, selecciona Palette Manager y selecciona Add From Jar
+
+![image](https://github.com/user-attachments/assets/a60eb4e0-3d28-46cc-9323-e599d705f8a5)
+
+5. Navega hasta la carpeta donde se encuentre guardado tu proyecto y haz click en la carpeta dist para seleccionar el componente .jar.
+
+![image](https://github.com/user-attachments/assets/663c9892-6d7a-4120-8ff2-e101d5c7db69)
+
+![image](https://github.com/user-attachments/assets/da12c258-470d-488f-b74f-2f244bb018bf)
+
+![image](https://github.com/user-attachments/assets/eb946fde-c3ce-4d38-93d2-08748b8b543e)
+
+Ya se encuentra el componente en la paleta, listo para ser utilizado fácilmente.
+
+![image](https://github.com/user-attachments/assets/d31c62ea-317d-493a-b151-f0bb9db619bc)
+
+6. Utiliza una nueva clase JFrame de prueba para comprobar la funcionalidad del componente, arrastrándolo de la paleta a la ventana de diseño y ejecutándolo. Después de comprobar su funcionalidad ya está listo para ser usado en diferentes interfaces gráficas. Aquí tenemos un ejemplo de una de las aplicaciones de este componente, se trata de una interfaz de un Registro de Residencia:
+
+![image](https://github.com/user-attachments/assets/bc426618-44ed-450f-b63d-d4dc2f1532e4)
+
+## Funcionamiento
+Puedes hacer click en el siguiente vídeo para visualizar el funcionamiento del componente CityChooser -> https://youtu.be/ybLI43rLcbM
+
+## Autores
+Cuevas Santiago Jennifer - *Estudiante de Ing. en Sistemas Computacionales del ITO *- [Contacto](JennyCussan (github.com))
+Delgado Molina Karla Rocío -* Estudiante de Ing. en Sistemas Computacionales del ITO *- [ Contacto ] (https://github.com/KarlaDM04)
