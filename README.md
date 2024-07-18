@@ -76,10 +76,12 @@ Para instalar el componente en tu proyecto, sigue estos pasos:
 - Importa el proyecto en tu IDE preferido (Ejemplo: NetBeans) .
 
 ## Uso
-- Después de descargar e importar el proyecto en tu IDE, dentro del constructor de la clase CityChooser, se debe cambiar la ruta que se encuentra como parámetro en el método leerCSV, la ruta la puedes obtener copiando la ubicación que se encuentra en las propiedades del archivo csv, contenido en la  carpeta src del proyecto, el cual se encuentra junto con las clases del paquete citychooser, al reemplazar la ruta queda de la siguiente manera:
+- Después de descargar e importar el proyecto en tu IDE, dentro del constructor de la clase CityChooser, se debe cambiar la ruta que se encuentra como parámetro en el método leerCSV, la ruta la puedes obtener copiando la ubicación que se encuentra en las propiedades del archivo csv, contenido en la  carpeta src del proyecto, el cual se encuentra junto con las clases del paquete citychooser. 
+
+![image](https://github.com/user-attachments/assets/1e465a52-585b-4025-9be9-6b5fe0e25c66)
+
+Al reemplazar la ruta queda de la siguiente manera:
 leerCSV("C:\\Users\\Jeann\\OneDrive\\Documents\\CityChooser\\CityChooser\\src\\citychooser\\Ciudades.csv");
 A continuación puedes visualizar como realizar este proceso:
 
-![image](https://github.com/user-attachments/assets/5cbb80a8-a1cc-4aaa-b57b-049cb1c2a105)
-
-![image](https://github.com/user-attachments/assets/a85acecb-e3f1-405a-af3e-d8bdd30e9129)
+![image](https://github.com/user-attachments/assets/c7d55f69-15fc-455b-8fa9-d4d11aef4b99)
