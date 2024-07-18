@@ -124,4 +124,5 @@ Puedes hacer click en el siguiente vídeo para visualizar el funcionamiento del 
 
 ## Autores
 Cuevas Santiago Jennifer - *Estudiante de Ing. en Sistemas Computacionales del ITO *- [Contacto](JennyCussan (github.com))
+
 Delgado Molina Karla Rocío -* Estudiante de Ing. en Sistemas Computacionales del ITO *- [ Contacto ] (https://github.com/KarlaDM04)
