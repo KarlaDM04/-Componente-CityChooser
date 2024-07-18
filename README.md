@@ -1,6 +1,6 @@
 # COMPONENTE SELECTOR DE CIUDADES
 ## Descripción
-Es un componente diseñado en Java que permite seleccionar ciudades, un Estado y alguno de sus respectivos municipios correspondientes México, a partir de datos cargados desde un archivo CSV,  puede ser utilizado en diferentes clases como JFrame form, para el diseño de interfaces. 
+Es un componente diseñado en Java que permite seleccionar ciudades, un Estado y alguno de sus respectivos municipios correspondientes a México, a partir de datos cargados desde un archivo CSV,  puede ser utilizado en diferentes clases como JFrame form, para el diseño de interfaces. 
 Para desarrollar este componente se utilizó una clase Java Class llamada CityChooser, en la cual se diseñó el componente y los métodos necesarios para hacerlo funcional.
 
 ## Características
@@ -27,11 +27,12 @@ Este componente puede ser utilizado en una variedad de contextos donde se requie
 - Java JDK 8 en adelante.
 
 - Un IDE que soporte la librería Swing de Java para poder utilizar y visualizar gráficamente el componente, por ejemplo: NetBeans.
+  
 - Un archivo CSV con datos de los estados y sus respectivos municipios en el formato esperado (2 columnas) para que el componente funcione correctamente (el archivo se encuentra del proyecto).
 
 ## API
 ### Descripción
-La clase CityChooser es una subclase de JPanel, contiene el código del diseño del componente y las instrucciones necesarias para hacerlo funcional, este componente permite a los usuarios seleccionar el Estado y Municipio de México del cual son originarios o en el habitan según sea utilizado; se muestran los 32 estados Mexicanos y los municipios de cada uno, así como el número de Estado y número de Municipio seleccionado.
+La clase CityChooser es una subclase de JPanel que contiene el código del diseño del componente y las instrucciones necesarias para hacerlo funcional, este componente permite a los usuarios seleccionar el Estado y Municipio de México del cual son originarios o en el que habitan, según sea utilizado; se muestran los 32 estados Mexicanos y los municipios de cada uno, así como el número de Estado y número de Municipio seleccionado.
 
 ### Librerías
 | Librería | Descripción |
@@ -123,7 +124,7 @@ Ya se encuentra el componente en la paleta, listo para ser utilizado fácilmente
 Puedes hacer click en el siguiente vídeo para visualizar el funcionamiento del componente CityChooser -> https://youtu.be/ybLI43rLcbM
 
 ## Autores
-Cuevas Santiago Jennifer - *Estudiante de Ing. en Sistemas Computacionales del ITO *- [Contacto](JennyCussan (github.com))
+Cuevas Santiago Jennifer - *Estudiante de Ing. en Sistemas Computacionales del ITO *- [ Contacto ] (https://github.com/JennyCussan)
 
 Delgado Molina Karla Rocío -* Estudiante de Ing. en Sistemas Computacionales del ITO *- [ Contacto ] (https://github.com/KarlaDM04)
 
